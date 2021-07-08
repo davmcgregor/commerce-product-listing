@@ -13,7 +13,6 @@ const ProductList = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(products);
   return (
     <main>
       {loading || error ? (
