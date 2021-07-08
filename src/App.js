@@ -8,10 +8,10 @@ import './App.css';
 const App = () => {
   return (
     <ProductsContextProvider>
-      <div className="App">
+      <article className="App">
         <Header />
         <ProductList />
-      </div>
+      </article>
     </ProductsContextProvider>
   );
 };
