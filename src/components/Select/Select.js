@@ -1,6 +1,8 @@
 import React, {useContext} from 'react';
 import {ProductsContext} from '../../context/ProductsContext';
 
+import './Select.css';
+
 const Select = () => {
   const {selectValue, filterBySelect} = useContext(ProductsContext);
 
@@ -9,7 +11,7 @@ const Select = () => {
   };
 
   return (
-    <div>
+    <div className="select__wrapper">
       <label htmlFor="select">Filter by: </label>
 
       <select
