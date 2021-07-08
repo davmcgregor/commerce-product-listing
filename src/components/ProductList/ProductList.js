@@ -12,11 +12,18 @@ const ProductList = () => {
     fetchProducts();
   }, [fetchProducts]);
 
-  console.log(products);
-
+  // console.log(products);
   return (
     <main>
-      <ProductCard />
+      {loading || error ? (
+        <p>
+          {loading && 'Loading...'}
+          {error && 'Something went wrong, please try again'}
+        </p>
+      ) : null}
+      {products.map((product) => (
+        <ProductCard key={product.index} product={product} />
+      ))}
     </main>
   );
 };

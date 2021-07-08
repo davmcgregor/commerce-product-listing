@@ -1,5 +1,11 @@
-const ProductCard = () => {
-  return <div>ProductCard</div>;
-}
+import './ProductCard.css';
 
-export default ProductCard
+const ProductCard = ({product}) => {
+  return (
+    <div className="card">
+      {product.productName} {product.price}
+    </div>
+  );
+};
+
+export default ProductCard;
