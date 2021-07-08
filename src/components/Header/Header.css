@@ -3,6 +3,6 @@ header {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.25rem;
   border-radius: 0.5rem 0.5rem 0 0;
 }
