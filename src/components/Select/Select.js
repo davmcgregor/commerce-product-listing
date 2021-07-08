@@ -19,12 +19,23 @@ const Select = () => {
         onChange={handleChange}
         name="productTypes"
         id="select"
+        data-testid="select"
       >
-        <option value="All">All</option>
-        <option value="Beer">Beer</option>
-        <option value="Cider">Cider</option>
-        <option value="Wine">Wine</option>
-        <option value="Spirits">Spirits</option>
+        <option value="All" data-testid="select-option">
+          All
+        </option>
+        <option value="Beer" data-testid="select-option">
+          Beer
+        </option>
+        <option value="Cider" data-testid="select-option">
+          Cider
+        </option>
+        <option value="Wine" data-testid="select-option">
+          Wine
+        </option>
+        <option value="Spirits" data-testid="select-option">
+          Spirits
+        </option>
       </select>
     </div>
   );
