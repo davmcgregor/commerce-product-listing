@@ -2,7 +2,7 @@ import {render, screen} from '@testing-library/react';
 
 import ProductCard from './ProductCard';
 
-test('Header renders a search and select component', () => {
+test('ProductCard renders information about a product', () => {
   const product = {
     index: 0,
     isSale: false,
