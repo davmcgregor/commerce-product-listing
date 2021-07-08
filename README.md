@@ -9,6 +9,7 @@ Run `npm start` to build and serve the application on `localhost:3000`
 Run `npm test` to run tests
 
 ## Design
+![Design](./DESIGN.png "Design reference")
 
 ## Accecptance Criteria
 
