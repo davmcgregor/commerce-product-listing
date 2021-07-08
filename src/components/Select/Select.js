@@ -10,7 +10,7 @@ const Select = () => {
 
   return (
     <div>
-      <label htmlFor="select">Filter by:</label>
+      <label htmlFor="select">Filter by: </label>
 
       <select
         value={selectValue}

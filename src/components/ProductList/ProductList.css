@@ -1,17 +1,23 @@
 main {
-  background-color: beige;
+  background-color: salmon;
+}
+
+.cards {
+  background-color: cadetblue;
+  grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-gap: 40px;
 }
 
 @media (min-width: 640px) {
-  main {
+  .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  main {
+  .cards {
     grid-template-columns: repeat(4, 1fr);
   }
 }

@@ -22,9 +22,11 @@ const ProductList = () => {
           {error && 'Something went wrong, please try again'}
         </p>
       ) : null}
-      {products.map((product) => (
-        <ProductCard key={product.index} product={product} />
-      ))}
+      <section className="cards">
+        {products.map((product) => (
+          <ProductCard key={product.index} product={product} />
+        ))}
+      </section>
     </main>
   );
 };
