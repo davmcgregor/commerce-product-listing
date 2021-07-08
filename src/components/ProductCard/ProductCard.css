@@ -1,9 +1,10 @@
 .card {
-  background-color: white;
+  background-color: blueviolet;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  padding: 1rem;
 }
 
 .card:hover {
@@ -12,19 +13,18 @@
 
 .card__image-container {
   width: 100%;
-  padding-top: 56.25%;
   overflow: hidden;
   position: relative;
 }
 
 .card__image-container img {
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-.card__title {
-  margin-bottom: 20px;
+.card__content {
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }

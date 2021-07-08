@@ -10,9 +10,9 @@ const ProductCard = ({product}) => {
         />
       </div>
       <div className="card__content">
-        <h2 className="card__title">
+        <h3>
           {product.productName} {product.price}
-        </h2>
+        </h3>
       </div>
     </div>
   );

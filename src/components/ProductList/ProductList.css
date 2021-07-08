@@ -1,13 +1,10 @@
 main {
-  background-color: salmon;
+  background-color: rgba(209, 213, 219, 1);
 }
-
 .cards {
-  background-color: cadetblue;
   grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 40px;
 }
 
 @media (min-width: 640px) {
