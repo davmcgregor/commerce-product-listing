@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import Header from './components/Header/Header';
+import ProductList from './components/ProductList/ProductList';
+
 import './App.css';
 
 const App = () => {
   return (
-    <main className="App">
-      <header className="App-header">
-        Header
-      </header>
-    </main>
+    <div className="App">
+      <Header />
+      <ProductList />
+    </div>
   );
 };
 

@@ -16,13 +16,13 @@ Run `npm test` to run tests
 We have a simple products JSON array. We would like you to read the array and display it in an organized way. Included is the data file and images, also find a file with a rough wireframe of how the end product should look.
 
 Requirements:
-• Build with MV* framework
-• Read data from JSON
-• Responsive Layout
-• Display product image, name and price.
-• Build dropdown filters for product type
-• Hide and show data depending on the dropdown filters • Show an indicator on the product if it is on sale.
-• Simple open text filter (search).
+- Build with MV* framework
+- Read data from JSON
+- Responsive Layout
+- Display product image, name and price.
+- Build dropdown filters for product type
+- Hide and show data depending on the dropdown filters • Show an indicator on the product if it is on sale.
+- Simple open text filter (search).
 
 Don't forget:
 
