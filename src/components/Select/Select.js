@@ -2,10 +2,10 @@ import React, {useContext} from 'react';
 import {ProductsContext} from '../../context/ProductsContext';
 
 const Select = () => {
-  const {selectValue, filterProducts} = useContext(ProductsContext);
+  const {selectValue, filterBySelect} = useContext(ProductsContext);
 
   const handleChange = (e) => {
-    filterProducts(e.target.value);
+    filterBySelect(e.target.value);
   };
 
   return (
