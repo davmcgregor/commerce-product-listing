@@ -7,17 +7,17 @@
   min-height: 100vh;
   max-width: 80rem;
   margin: auto;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 @media (min-width: 640px) {
   .app__wrapper {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
   }
 }
 
 @media (min-width: 1024px) {
   .app__wrapper {
-    padding: 2rem;
+    padding: 2rem 0;
   }
 }
