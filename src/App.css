@@ -1,4 +1,8 @@
 .App {
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.app__wrapper {
   text-align: center;
   min-height: 100vh;
   max-width: 80rem;
@@ -7,13 +11,13 @@
 }
 
 @media (min-width: 640px) {
-  .App {
+  .app__wrapper {
     padding: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .App {
+  .app__wrapper {
     padding: 2rem;
   }
 }

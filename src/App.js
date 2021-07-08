@@ -9,8 +9,10 @@ const App = () => {
   return (
     <ProductsContextProvider>
       <article className="App">
-        <Header />
-        <ProductList />
+        <div className="app__wrapper">
+          <Header />
+          <ProductList />
+        </div>
       </article>
     </ProductsContextProvider>
   );

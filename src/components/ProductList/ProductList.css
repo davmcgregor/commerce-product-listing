@@ -1,8 +1,7 @@
 main {
-  background-color: rgba(243, 244, 246, 1);
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 .cards {
-  grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }

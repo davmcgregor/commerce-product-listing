@@ -3,6 +3,7 @@ header {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  margin: 0 1rem 0 1rem;
   padding: 1.25rem;
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 0.5rem;
 }
