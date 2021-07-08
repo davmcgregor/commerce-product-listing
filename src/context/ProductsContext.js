@@ -1,5 +1,6 @@
 import {createContext, useState} from 'react';
 import ProductsData from '../data/Products.json';
+import {selectProducts} from '../utils/Utils';
 
 export const ProductsContext = createContext();
 
@@ -7,6 +8,7 @@ const ProductsContextProvider = (props) => {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(null);
+  const [selectValue, setSelectValue] = useState('All');
 
   const fetchProducts = () => {
     try {
@@ -19,6 +21,15 @@ const ProductsContextProvider = (props) => {
     }
   };
 
+  const filterProducts = (value) => {
+    setSelectValue(value);
+    if (value === 'All') {
+      setProducts(ProductsData);
+    } else {
+      setProducts(selectProducts(value));
+    }
+  };
+
   return (
     <ProductsContext.Provider
       value={{
@@ -26,6 +37,8 @@ const ProductsContextProvider = (props) => {
         products,
         loading,
         error,
+        selectValue,
+        filterProducts,
       }}
     >
       {props.children}

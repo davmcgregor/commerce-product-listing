@@ -10,9 +10,10 @@ const ProductList = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, [fetchProducts]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-  // console.log(products);
+  console.log(products);
   return (
     <main>
       {loading || error ? (

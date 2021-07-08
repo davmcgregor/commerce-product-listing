@@ -1,9 +1,31 @@
+import React, {useContext} from 'react';
+import {ProductsContext} from '../../context/ProductsContext';
+
 const Select = () => {
+  const {selectValue, filterProducts} = useContext(ProductsContext);
+
+  const handleChange = (e) => {
+    filterProducts(e.target.value);
+  };
+
   return (
     <div>
-      Select
-    </div>
-  )
-}
+      <label htmlFor="select">Filter by:</label>
 
-export default Select
+      <select
+        value={selectValue}
+        onChange={handleChange}
+        name="productTypes"
+        id="select"
+      >
+        <option value="All">All</option>
+        <option value="Beer">Beer</option>
+        <option value="Cider">Cider</option>
+        <option value="Wine">Wine</option>
+        <option value="Spirits">Spirits</option>
+      </select>
+    </div>
+  );
+};
+
+export default Select;
