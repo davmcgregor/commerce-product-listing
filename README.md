@@ -2,7 +2,7 @@
 
 #### Technologies: React, HTML, CSS
 
-[Task](#Task) | [Setup](#Setup) | [Acceptance Criteria](#Acceptance_Criteria) | [Design](#Design) | [Further improvements](#Further_Improvements)
+[Task](#Task) | [Setup](#Setup) | [Acceptance Criteria](#Acceptance_Criteria) | [Wire Reference](#Wire_Reference) | [Further improvements](#Further_Improvements)
 
 ![Screen Shot 2021-07-09 at 12 13 12 pm](https://user-images.githubusercontent.com/39909629/125069805-25064a80-e0af-11eb-882d-14e16b350a32.png)
 
@@ -42,9 +42,9 @@ Don't forget:
 - Please surround your code with a few basic unit tests, the tests don’t need to be super granular but do write tests for all logical functionalities.
 - Include a Readme of how to use your repository.
 
-## <a name="Design">Design</a>
+## <a name="Wire_Reference">Wire Reference</a>
 
-![Design](./DESIGN.png "Design reference")
+![Wire_Reference](./Wire_Reference.png "Wire Reference")
 
 ## <a name="Further_Improvements">Further Improvements</a>
 
