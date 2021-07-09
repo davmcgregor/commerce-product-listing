@@ -24,6 +24,7 @@ const ProductsContextProvider = (props) => {
   };
 
   const filterBySelect = (value) => {
+    setQuery('');
     setSelectValue(value);
     if (value === 'All') {
       setProducts(ProductsData);
@@ -33,15 +34,10 @@ const ProductsContextProvider = (props) => {
   };
 
   const filterBySearch = (term) => {
+    setSelectValue('All');
     setQuery(term);
     if (term === '') {
-      //search within selected results
-      if (selectValue !== 'All') {
-        setProducts(selectProducts(ProductsData, selectValue));
-      } else {
-        setSelectValue('All');
-        setProducts(ProductsData);
-      }
+      setProducts(ProductsData);
     } else {
       setProducts(searchProducts(ProductsData, term));
     }
