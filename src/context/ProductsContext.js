@@ -43,7 +43,7 @@ const ProductsContextProvider = (props) => {
         setProducts(ProductsData);
       }
     } else {
-      setProducts(searchProducts(products, term));
+      setProducts(searchProducts(ProductsData, term));
     }
   };
 
