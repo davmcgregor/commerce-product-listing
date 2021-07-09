@@ -13,22 +13,23 @@ const ProductList = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (loading || error) {
-    return (
-      <p>
-        {loading && 'Loading...'}
-        {error && 'Something went wrong, please try again'}
-      </p>
-    );
-  } else if (products) {
-    return (
-      <section className="cards">
-        {products.map((product) => (
-          <ProductCard key={product.index} product={product} />
-        ))}
-      </section>
-    );
-  }
+  return (
+    <main>
+      {(loading || error) && (
+        <p>
+          {loading && 'Loading...'}
+          {error && 'Something went wrong, please try again'}
+        </p>
+      )}
+      {products.length && (
+        <section className="cards">
+          {products.map((product) => (
+            <ProductCard key={product.index} product={product} />
+          ))}
+        </section>
+      )}
+    </main>
+  );
 };
 
 export default ProductList;
