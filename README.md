@@ -2,7 +2,7 @@
 
 #### Technologies: React, HTML, CSS
 
-[Task](#Task) | [Setup](#Setup) | [Accecptance Criteria](#Accecptance_Criteria) | [Design](#Design) | [Further improvements](#Further_Improvements)
+[Task](#Task) | [Setup](#Setup) | [Acceptance Criteria](#Acceptance_Criteria) | [Design](#Design) | [Further improvements](#Further_Improvements)
 
 ![Screen Shot 2021-07-09 at 12 13 12 pm](https://user-images.githubusercontent.com/39909629/125069805-25064a80-e0af-11eb-882d-14e16b350a32.png)
 
@@ -23,7 +23,7 @@ To run tests:
 > npm test # Run the tests
 ```
 
-## <a name="Accecptance_Criteria">Accecptance Criteria</a>
+## <a name="Acceptance_Criteria">Acceptance Criteria</a>
 
 Requirements:
 - Build with MV* framework
@@ -46,7 +46,7 @@ Don't forget:
 
 ![Design](./DESIGN.png "Design reference")
 
-## <a name="Further_Improvements">Further_Improvements</a>
+## <a name="Further_Improvements">Further Improvements</a>
 
 If I was writing this code for production I'd take the following further actions:
 
