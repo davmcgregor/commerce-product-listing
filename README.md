@@ -53,7 +53,7 @@ If I was writing this code for production I'd take the following further actions
 - Obtain pixel accurate wireframes from the UX team, especially for responsive views;
 - Write a flex-fallback into the CSS to ensure maximum browser support;
 - Seek further guidance from the project owner/manager about the filter functionality e.g. should filtered results be searchable? Should search results be filterable? 
-- Make further design decisions based on how to fetch cars from an external API e.g. factoring in async calls and the size of responses;
+- Make further design decisions based on how to fetch products from an external API e.g. factoring in async calls and the size of responses;
 - Write more tests to improve coverage.
 
 
